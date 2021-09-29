@@ -53,7 +53,7 @@ string::size_type width(const vector<string>& v)
     return maxlen;
 }
 
-vector<string> hcat(const vector<string>& left, const vector<string>& right)
+vs hcat(const vector<string>& left, const vector<string>& right)
 {
     vector<string> ret;
     string::size_type width1 = width(left) + 1;
@@ -142,7 +142,7 @@ vs select(int x)
     else return fourth;
 }
 
-vector<string> getConnector(int x, int y) {
+vs getConnector(int x, int y) {
     
     // create connectors
     vs one_one;
