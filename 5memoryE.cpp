@@ -406,7 +406,7 @@ void memory1()
     test = hcat(hcat(hcat(hcat(hcat(hcat(hcat(hcat(hcat(hcat(hcat(number, column), empty), column), empty), column), empty), column), empty), column), empty), column);
     
     show(test);
-    int count;
+    int count = 0;
 
     // intro
     cout << "Enter a number between [1, 4] to choose the location of the wire." << endl;
@@ -503,12 +503,11 @@ void memory1()
     cout << "Type anything else if you want to submit." << endl;
     cout << "Enter: ";
     string s;
-    cin >> s;
+    getline(cin, s);
     if (s == "0") {
         if (num6 == six.gn()) count--;
         goto sixth;
     }
-    cin.ignore();
     
     // submit
     cout << "Calculating results...";

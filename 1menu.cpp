@@ -9,7 +9,7 @@
 
 using namespace std;
 
-// g++ 1menu.cpp 2arithmeticE.cpp 3arithmeticM.cpp 4arithmeticH.cpp 5memoryE.cpp 6memoryM.cpp 7memoryH.cpp 8memoryVH.cpp 9fluencydrill.cpp
+// g++ 1menu.cpp 2arithmeticE.cpp 3arithmeticM.cpp 4arithmeticH.cpp 5memoryE.cpp 6memoryM.cpp 7memoryH.cpp 8memoryVH.cpp 9fluencydrill.cpp -o math.exe
 
 string check(string& s, istringstream& i, int& data, int lower, int upper, bool b)
 {

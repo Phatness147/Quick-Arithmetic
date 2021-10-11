@@ -169,11 +169,8 @@ class Tree {
             show();
             sleep(3);
             cout << "The game will autoselect nodes. There is no undo button in this game! The selected node is marked with an o." << endl;
-            sleep(3);
             cout << "You must recall whether or not the chosen node has no branches, a left branch, a right branch, or both." << endl;
-            sleep(3);
             cout << "1 corresponds with yes. 0 corresponds with no. Enter 2 to return to the menu." << endl;
-            sleep(3);
 
             // create ordering of autoselection
             int nums[7];
@@ -288,6 +285,7 @@ class Tree {
                 display = original;
                 show();
                 cout << "Returning to menu..." << endl;
+                cin.ignore();
                 sleep(3);
             }
         }
