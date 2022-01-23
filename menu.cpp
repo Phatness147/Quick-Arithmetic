@@ -2,7 +2,7 @@
 #include "fluency.h"
 #include "utils.h"
 
-// g++ menu.cpp utils.cpp arithmetic.cpp fluency.cpp -o QuickArithmetic
+// g++ menu.cpp utils.cpp arithmetic.cpp fluency.cpp -o "Quick Arithmetic"
 
 int main() {
 
